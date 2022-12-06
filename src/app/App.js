@@ -103,9 +103,6 @@ class App extends Component {
                 <nav className='deep-purple lighten-2'>
                     <div className='container'>
                         <a className='brand-logo' href='/'>To do list</a>
-                        <div className='container'>
-                            <a>Hola</a>
-                        </div>
                     </div>
                 </nav>
                 <div className='container'>
