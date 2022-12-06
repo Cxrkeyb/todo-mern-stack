@@ -54,6 +54,7 @@ class App extends Component {
     }
 
     fetchTasks(){
+        console.log('Inic')
         fetch('/api/tasks')
             .then(res => res.json())
             .then(data => {
@@ -128,7 +129,7 @@ class App extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className='col s7'>\
+                        <div className='col s7'>
                             <table>
                                 <thead>
                                     <tr>
